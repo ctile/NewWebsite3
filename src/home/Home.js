@@ -9,7 +9,7 @@ import ThumbnailLink from "./ThumbnailLink.js";
 
 function Home() {
   return (
-    <body>
+    <div>
       <header>
         <h1 id="top">
           MotoMania <br /> <q>Find the bike for you</q>
@@ -209,7 +209,7 @@ function Home() {
 
         <p id="copyright">&copy; MotoMania 2021</p>
       </footer>
-    </body>
+    </div>
   );
 }
 export default Home;
