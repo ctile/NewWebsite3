@@ -45,15 +45,11 @@ nav ul {
   padding: 0;
 }
 
-/*@media (max-width: 50%) {
-  nav ul {
+@media (min-width: 500px) {
+  nav ul li {
+    padding: 5px 20px;
     display: inline;
   }
-}*/
-
-nav ul li {
-  padding: 5px 20px;
-  display: inline;
 }
 
 nav a:visited,
